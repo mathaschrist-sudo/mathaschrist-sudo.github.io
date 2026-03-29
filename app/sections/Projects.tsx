@@ -22,7 +22,7 @@ const Projects = () => {
       image: '/blog.png',
       category: 'web',
       tags: ['Next.js', 'Shadcn.ui', 'Prisma', 'Tailwindcss'],
-      demoUrl: '#',
+      demoUrl: 'https://mathaschrist-sudo-github-io.vercel.app',
       useImage: true, 
       icon: Globe,
     },
