@@ -115,7 +115,7 @@ const Hero = () => {
           <div
             style={{
               display: 'grid',
-              gridTemplateColumns: '1fr 1fr',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
               gap: '3rem',
               alignItems: 'center',
               maxWidth: '1400px',
@@ -127,7 +127,7 @@ const Hero = () => {
               <h1
                 ref={titleRef}
                 style={{
-                  fontSize: 'clamp(2.5rem, 5vw, 4rem)',
+                  fontSize: 'clamp(1.8rem, 5vw, 4rem)',
                   fontWeight: 700,
                   color: '#f1f5fb',
                   lineHeight: 1.1,
