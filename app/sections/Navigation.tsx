@@ -17,7 +17,7 @@ const Navigation = () => {
   }, []);
 
   const navLinks = [
-    { name: 'Accueil', href: '#hero' },
+    { name: 'Accueil', href: 'https://mathaschrist.vercel.app/' },
     { name: 'Projets', href: '#projects' },
     { name: 'Compétences', href: '#skills' },
     { name: 'Contact', href: '#contact' },
@@ -44,7 +44,7 @@ const Navigation = () => {
           
           {/* LOGO */}
           <a
-            href="#hero"
+            href="https://mathaschrist.vercel.app/"
             onClick={(e) => {
               e.preventDefault();
               scrollToSection('#hero');
