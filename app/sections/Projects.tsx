@@ -33,7 +33,7 @@ const Projects = () => {
       image: '/portfolio.png', 
       category: 'web',
       tags: ['React', 'Next.js', 'Tailwindcss', 'GSAP'],
-      demoUrl: 'https://mathaschrist-sudo-github-io.vercel.app',
+      demoUrl: 'https://mathaschrist.vercel.app/',
       useImage: true, 
       icon: Globe, 
     },
